@@ -9,7 +9,7 @@ export default function Home() {
     <div className="flex min-h-screen flex-col bg-white">
       <main className="flex-1">
         {/* hero section   */}
-        <section className="container mx-auto px-4 py-32">
+        <section className="container mx-auto px-4 py-32 justify-items-center">
           <div className="max-auto max-w-4xl text-center">
             <h1 className="text-black mb-6 text-6xl font-bold">
               A better way to track your job application.
@@ -22,7 +22,7 @@ export default function Home() {
                 href="/sign-up"
                 className={cn(
                   buttonVariants({ size: "lg" }),
-                  "h-12 px-8 text-lg font-medium"
+                  "h-12 px-8 text-lg font-medium",
                 )}
               >
                 Start for free <ArrowRight className="ml-2" />
